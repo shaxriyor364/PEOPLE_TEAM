@@ -1,4 +1,180 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+.section-hero {
+  padding: 120px 0;
+  background-color: #014e56;
+}
+.section-hero .section-hero-page-texts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+@media (max-width: 730px) {
+  .section-hero .section-hero-page-texts {
+    flex-direction: column;
+  }
+}
+.section-hero .section-hero-page-texts h2 {
+  max-width: 350px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+.section-hero .section-hero-page-texts .section-hero-page-texts-p .section-hero-page-text-line {
+  margin-bottom: 79px;
+  width: 50px;
+  height: 4px;
+  background-color: #f67e7e;
+}
+.section-hero .section-hero-page-texts .section-hero-page-texts-p p {
+  position: relative;
+  max-width: 750px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+.section-hero .section-hero-image-disk-red {
+  position: absolute;
+  right: 0;
+  top: 430px;
+  z-index: 10;
+}
+@media (max-width: 1400px) {
+  .section-hero .section-hero-image-disk-red {
+    top: auto;
+  }
+}
+
+.section-main {
+  z-index: 11;
+  position: relative;
+  background-color: #004047;
+  padding-bottom: 140px;
+}
+.section-main h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+.section-main .section-main-cards {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+@media (max-width: 1130px) {
+  .section-main .section-main-cards {
+    flex-direction: column;
+    gap: 60px;
+  }
+}
+.section-main .section-main-cards .section-main-card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 32px 24px 0 24px;
+  background-color: #012f34;
+  transition: 0.3s;
+}
+@media (max-width: 410px) {
+  .section-main .section-main-cards .section-main-card {
+    padding: 32px 0 0 0;
+  }
+}
+.section-main .section-main-cards .section-main-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.section-main .section-main-cards .section-main-card img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+.section-main .section-main-cards .section-main-card h3 {
+  padding-top: 13px;
+  color: #79c8c7;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0em;
+  width: 302px;
+  text-align: center;
+}
+.section-main .section-main-cards .section-main-card p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0em;
+  width: 302px;
+  text-align: center;
+}
+.section-main .section-main-cards .section-main-card .section-main-card-plus-image {
+  transform: translate(0, 25px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin: 0 auto;
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+  background-color: #f67e7e;
+  transition: 0.5s;
+}
+.section-main .section-main-cards .section-main-card .section-main-card-plus-image:hover {
+  background-color: #79c8c7;
+}
+.section-main .section-main-cards .section-main-card .section-main-card-plus-image:hover img {
+  transform: rotate(45deg);
+}
+.section-main .section-main-cards .section-main-card .section-main-card-plus-image img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
+.section-main .section-main-directors-bg-right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+}
+@media (max-width: 1400px) {
+  .section-main .section-main-directors-bg-right-image {
+    top: auto;
+  }
+}
+
+.section-some {
+  background-color: #012f34;
+}
+.section-some h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+.section-some .section-some-logos {
+  margin-top: 70px;
+  padding-bottom: 156px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 header {
   background-color: #014e56;
 }
