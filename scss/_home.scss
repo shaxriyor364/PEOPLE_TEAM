@@ -15,11 +15,11 @@
 }
 
 .h1-text {
-  width: 635px;
+  max-width: 600px;
   font-size: 100px;
   color: var.$bg--FF;
   span {
-    color: $bg--F6;
+    color: var.$bg--F6;
   }
 }
 .pp-text {
@@ -27,6 +27,7 @@
   font-size: 18px;
   color: var.$bg--FF;
   padding-top: 110px;
+  padding-bottom: 256px;
 }
 .flex-section-one {
   display: flex;
@@ -35,5 +36,38 @@
   @media (max-width: 1180px) {
     justify-content: center;
     gap: 40px;
+  }
+  .iimg-posit {
+    position: absolute;
+    bottom: 0;
+    right: 380px;
+  }
+}
+.section-two {
+  background-color: var.$bg--012;
+  .h2-text-one {
+    padding-top: 140px;
+    h2 {
+      width: 445px;
+      font-size: 48px;
+      color: var.$bg--FF;
+      padding-top: 54px;
+    }
+  }
+  .p-textt {
+    width: 445px;
+    font-size: 18px;
+    color: var.$bg--F6;
+  }
+  .p-textt-2 {
+    width: 445px;
+    font-size: 15px;
+    color: var.$bg--FF;
+    padding-top: 16px;
+  }
+  .p-text-flexx {
+    display: flex;
+    gap: 23px;
+    align-items: center;
   }
 }

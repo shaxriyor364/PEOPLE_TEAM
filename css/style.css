@@ -192,16 +192,34 @@
 .logo-icon {
   height: 200px;
 }
+@media (max-width: 650px) {
+  .logo-icon {
+    display: none;
+  }
+}
 
 .group7 {
   height: 200px;
   margin-top: 320px;
 }
+@media (max-width: 650px) {
+  .group7 {
+    display: none;
+  }
+}
 
 .contact {
   display: flex;
-  gap: 220px;
+  width: 100%;
+  justify-content: space-between;
   margin-bottom: 120px;
+  padding: 50px 0;
+  gap: 50px;
+}
+@media (max-width: 1070px) {
+  .contact {
+    flex-direction: column;
+  }
 }
 .contact .contact_desc .contact_desc-title {
   font-family: Livvic;
@@ -239,7 +257,8 @@
   color: rgb(255, 255, 255);
 }
 .contact .contact-login .contact-login_form {
-  width: 540px;
+  width: 100%;
+  max-width: 540px;
 }
 .contact .contact-login .contact-login_form .contact-login_form_input {
   margin-bottom: 24px;
@@ -283,8 +302,12 @@
 }
 
 .h1-text {
-  width: 635px;
+  max-width: 600px;
   font-size: 100px;
+  color: #ffffff;
+}
+.h1-text span {
+  color: #f67e7e;
 }
 
 .pp-text {
@@ -292,6 +315,7 @@
   font-size: 18px;
   color: #ffffff;
   padding-top: 110px;
+  padding-bottom: 256px;
 }
 
 .flex-section-one {
@@ -304,6 +328,40 @@
     justify-content: center;
     gap: 40px;
   }
+}
+.flex-section-one .iimg-posit {
+  position: absolute;
+  bottom: 0;
+  right: 380px;
+}
+
+.section-two {
+  background-color: #012f34;
+}
+.section-two .h2-text-one {
+  padding-top: 140px;
+}
+.section-two .h2-text-one h2 {
+  width: 445px;
+  font-size: 48px;
+  color: #ffffff;
+  padding-top: 54px;
+}
+.section-two .p-textt {
+  width: 445px;
+  font-size: 18px;
+  color: #f67e7e;
+}
+.section-two .p-textt-2 {
+  width: 445px;
+  font-size: 15px;
+  color: #ffffff;
+  padding-top: 16px;
+}
+.section-two .p-text-flexx {
+  display: flex;
+  gap: 23px;
+  align-items: center;
 }
 
 header {
