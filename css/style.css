@@ -1,4 +1,97 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Livvic;
+}
+
+.body {
+  background: rgb(1, 78, 86);
+  display: flex;
+}
+
+.logo-icon {
+  height: 200px;
+}
+
+.group7 {
+  height: 200px;
+  margin-top: 320px;
+}
+
+.contact {
+  display: flex;
+  gap: 220px;
+  margin-bottom: 120px;
+}
+.contact .contact_desc .contact_desc-title {
+  font-family: Livvic;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  letter-spacing: 0px;
+  color: rgb(255, 255, 255);
+}
+.contact .contact_desc .contact_desc-ask {
+  font-family: Livvic;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0px;
+  color: rgb(246, 126, 126);
+}
+.contact .contact_desc .contact_desc-about-wrapper {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.contact .contact_desc .contact_desc-about-wrapper .contact_desc-about-wrapper_card {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+.contact .contact_desc .contact_desc-about-wrapper .contact_desc-about-wrapper_card .contact_desc-about-wrapper_card-desc_text {
+  font-family: Livvic;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: rgb(255, 255, 255);
+}
+.contact .contact-login .contact-login_form {
+  width: 540px;
+}
+.contact .contact-login .contact-login_form .contact-login_form_input {
+  margin-bottom: 24px;
+  width: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  padding: 0 81px 16px 14px;
+  width: 445;
+  height: 25;
+  left: 14px;
+  opacity: 0.6;
+  color: rgb(255, 255, 255);
+}
+.contact .contact-login .contact-login_form-btn {
+  width: 123px;
+  height: 48px;
+  border-radius: 24px;
+  font-family: Livvic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: rgb(0, 64, 71);
+  border: none;
+=======
 .section-hero {
   padding: 120px 0;
   background-color: #014e56;
@@ -173,6 +266,7 @@
   gap: 40px;
   flex-wrap: wrap;
   justify-content: center;
+>>>>>>> fda9352be3aa6053b361c73617c669b9c8b9d14c
 }
 
 header {
