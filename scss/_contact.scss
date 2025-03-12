@@ -10,22 +10,33 @@
 .body {
   background: rgba(1, 78, 86, 1);
   display: flex;
-  // gap: 0;
 }
 
 .logo-icon {
   height: 200px;
+  @media (max-width: 650px) {
+    display: none;
+  }
 }
 
-.group7{
+.group7 {
   height: 200px;
   margin-top: 320px;
+  @media (max-width: 650px) {
+    display: none;
+  }
 }
 
 .contact {
   display: flex;
-  gap: 220px;
+  width: 100%;
+  justify-content: space-between;
   margin-bottom: 120px;
+  padding: 50px 0;
+  gap: 50px;
+  @media (max-width: 1070px) {
+    flex-direction: column;
+  }
   .contact_desc {
     .contact_desc-title {
       font-family: Livvic;
@@ -37,16 +48,6 @@
     }
 
     .contact_desc-ask {
-      // color: adjust-color(
-      //   $color: #000000,
-      //   $red: 1,
-      //   $green: 2,
-      //   $blue: 3,
-      //   $hue: 0,
-      //   $saturation: 0%,
-      //   $lightness: 0%,
-      //   $alpha: 1
-      // );
       font-family: Livvic;
       font-weight: 700;
       font-size: 32px;
@@ -78,7 +79,8 @@
   }
   .contact-login {
     .contact-login_form {
-      width: 540px;
+      width: 100%;
+      max-width: 540px;
 
       .contact-login_form_input {
         margin-bottom: 24px;
